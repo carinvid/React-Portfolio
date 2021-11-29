@@ -2,7 +2,7 @@ import React from "react";
 import { Github } from "react-bootstrap-icons";
 import { Google } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
-import LinkResume from "../pic/Resume.pdf";
+import LinkResume from "../pic/CAROLINA REEDY resume.pdf";
 
 const Footer = () => {
   return (
