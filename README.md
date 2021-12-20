@@ -17,7 +17,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ##Usage :point_right:
 
-Click the link and navigate through the site to view all the content.
+Click the link and navigate through the site to view all the content:
+https://carinvid.github.io/react-portfolio/
 
 ##Languages :blossom:
 
