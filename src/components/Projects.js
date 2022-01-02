@@ -1,7 +1,7 @@
 import React from "react";
 import Portfolio from "../pic/Portfolio.jpg";
 import Rumble from "../pic/Rumble-on.jpg";
-import WorkDayPlanner from "../pic/WorkDayPlanner.jpg";
+import WorkDayPlanner from "../pic/WorkDayPlanner.png";
 import Screenshot from "../pic/Screenshot.png";
 import TeamGenerator from "../pic/team-generator.png";
 import NoteTaker from "../pic/note-taker.png";
@@ -71,14 +71,14 @@ const Projects = () => {
     fadeIn: true,
     fadeInSpeed: 500,
   };
-  //RunBuddy
-  const openPopupboxRunBuddy = () => {
+  //WorkDayPlanner
+  const openPopupboxWorkDayPlanner = () => {
     const content = (
       <>
         <img
           className="pro-img-popupbox"
           src={WorkDayPlanner}
-          alt="RunBuddy Website"
+          alt="Work Day Planner Website"
         />
         <p>
           A website that can help to plan you work day.
@@ -98,7 +98,7 @@ const Projects = () => {
     PopupboxManager.open({ content });
   };
 
-  const popupboxConfigRunBuddy = {
+  const popupboxConfigWorkDayPlanner = {
     titleBar: {
       enable: true,
       text: "Work Day Planner.",
@@ -237,8 +237,12 @@ const Projects = () => {
             </div>
           </div>
           <div class="col-md-4">
-            <div className="pro-image-box" onClick={openPopupboxRunBuddy}>
-              <img className="port-img" src={RunBuddy} alt="RunBuddy Project" />
+            <div className="pro-image-box" onClick={openPopupboxWorkDayPlanner}>
+              <img
+                className="port-img"
+                src={WorkDayPlanner}
+                alt="Work Day Planner"
+              />
               <div className="overflow"></div>
             </div>
           </div>
@@ -276,7 +280,7 @@ const Projects = () => {
       </div>
       <PopupboxContainer {...popupboxConfigPortfolio} />
       <PopupboxContainer {...popupboxConfigRumble} />
-      <PopupboxContainer {...popupboxConfigRunBuddy} />
+      <PopupboxContainer {...popupboxConfigWorkDayPlanner} />
       <PopupboxContainer {...popupboxConfigDiscover} />
       <PopupboxContainer {...popupboxConfigTeamGenerator} />
       <PopupboxContainer {...popupboxConfigNoteTaker} />

@@ -23,13 +23,20 @@ const Resume = () => {
             </p>
           </div>
         </div>
-        <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-left">
           <div className="school"></div>
           <div className="timeline-content">
             <h4>2014-2016</h4>
             <p>
               ITT Technical School: Associate's degree Software Development{" "}
             </p>
+          </div>
+        </div>
+        <div className="timeline-block timeline-block-right">
+          <div className="school"></div>
+          <div className="timeline-content">
+            <h4>2022</h4>
+            <p>Java and Phyton at Udemy.com </p>
           </div>
         </div>
       </div>
