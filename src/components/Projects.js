@@ -1,7 +1,7 @@
 import React from "react";
 import Portfolio from "../pic/Portfolio.jpg";
 import Rumble from "../pic/Rumble-on.jpg";
-import RunBuddy from "../pic/RunBuddy.jpg";
+import WorkDayPlanner from "../pic/WorkDayPlanner.jpg";
 import Screenshot from "../pic/Screenshot.png";
 import TeamGenerator from "../pic/team-generator.png";
 import NoteTaker from "../pic/note-taker.png";
@@ -77,19 +77,21 @@ const Projects = () => {
       <>
         <img
           className="pro-img-popupbox"
-          src={RunBuddy}
+          src={WorkDayPlanner}
           alt="RunBuddy Website"
         />
         <p>
-          A website that contains information about me and professional
-          portfolios.<p>Built with HTML, CSS and Javascript</p>
+          A website that can help to plan you work day.
+          <p>Built with HTML, CSS and Javascript</p>
         </p>
         <b>GitHub:</b>
         <a
           className="hyper-link"
-          onClick={() => window.open("https://github.com/carinvid/RunBuddy")}
+          onClick={() =>
+            window.open("https://github.com/carinvid/work-day-planner")
+          }
         >
-          https://github.com/carinvid/RunBuddy
+          https://github.com/carinvid/work-day-planner
         </a>
       </>
     );
@@ -99,7 +101,7 @@ const Projects = () => {
   const popupboxConfigRunBuddy = {
     titleBar: {
       enable: true,
-      text: "RunBuddy Website.",
+      text: "Work Day Planner.",
     },
     fadeIn: true,
     fadeInSpeed: 500,
